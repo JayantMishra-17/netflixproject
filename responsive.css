@@ -1,0 +1,43 @@
+@media screen and (max-width:1300px) {
+    nav{
+        max-width: 90vw;
+    }
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        color: white;
+        gap: 25px;
+       }
+       .hero>:first-child{
+        font-size: 32px;
+    }
+    .hero>:nth-child(2){
+        font-size: 18px;
+    }
+    .hero>:nth-child(3){
+        font-size: 18px;
+    }
+    .hero-buttons{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+    }
+    .faq h2{
+        text-align: center;
+        font-size: 32px;
+    }
+    footer{
+        max-width: 90vw;
+    }
+    .item{
+        align-items: center;
+    }
+    .sel-box{
+        text-align: center;
+    }
+    .p{
+        text-align: center;
+    }
+   }
